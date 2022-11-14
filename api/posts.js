@@ -12,7 +12,7 @@ postsRouter.get('/', async (req, res) => {
     console.log("anything")
     try {
          const posts = await getAllPosts();
-    console.log('this is users', posts)
+    console.log('this is posts', posts)
     res.send({
       posts
     });
